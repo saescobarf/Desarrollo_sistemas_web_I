@@ -14,20 +14,21 @@
             <img src="img/bien_hecho_gohan.jpg" alt="inserte aqui una imagen de gohan*" style="width: 500px; height: auto;">
         </div>
     <h2>¡Bien Hecho!</h2>
+    <center>
     <?php
         $Nombre = $_POST['Nombre'];
         $Edad = $_POST['Edad'];
         $Ciudad = $_POST['Ciudad'];
         $fechacumple = $_POST['fechacumple'];
         $Pasatiempo = $_POST['Pasatiempo'];
-
+        
         echo '<p><b>Nombre:</b> '.$Nombre.'</p>';
         echo '<p><b>Edad:</b> '.$Edad.'</p>';
         echo '<p><b>Ciudad:</b> '.$Ciudad.'</p>';
         echo '<p><b>Cumpleaños:</b> '.$fechacumple.'</p>';
         echo '<p><b>Pasatiempo:</b> '.$Pasatiempo.'</p>';
     ?>
-
+    
      <div id="popUpOverlay"></div>
         <div id="popUpBox">
             <div id="box">
@@ -39,6 +40,7 @@
         <button onclick="Alert.render('You look very pretty today.')" class="btn">
         ¡Volver a Ingresar!
     </button>
+    </center>
     <script src="js/app.js"></script>
     </div>
 
